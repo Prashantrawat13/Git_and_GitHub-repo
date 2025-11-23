@@ -58,13 +58,88 @@ git clone https://github.com/username/repository-name.git
 ***
 
 
+  
+
+### b. Create a new branch named after your username (e.g., Tutedude).
+
+Now we'll be creating a `New Branch` name - **prashantrawat13**
+
+```
+git branch -c "branch-name"
+```
+
+Now to switch to the branch we'll command
+
+```
+git switch branch-name
+```
+
+![branch](Screen-shots/branch.png)
+
+
+To see all the branches there are and the current branch you are in:
+
+```
+git branch
+```
+
+***
+
+### c. Add your Flask project files to this branch.
+
+Now we'll add our flask project file in this directory
+
+```
+cp -r ../Flask_and_Mongodb/ flask-project-copy
+cd -r "file-path" "name-for-file"
+```
+
+Now it is named as **flask-project-copy** {it's my another [git-repo](https://github.com/Prashantrawat13/Flask_and_mongodb.git)}
+
+![flask-copy](Screen-shots/flask-copy.png)
+
+***
+
+
+### d. Commit the changes and merge the branch into the main branch.
+
+Now we'll make the changes from the "prashantrawat13" branch and then merge it with the main branch.
+
+
+1.  Add the **flask-project-copy** to the git using the command :
+
+	-  `git add flask-project-copy`
+
+2.  We can check the status to know if it's added or not : 
+
+	-  `git status`
+ 
+![clone-add](Screen-shots/clone-add.png)
+
+3.  Let's commit the changes we made using the **prashantrawat13 Branch** 
+
+	-  `git commit -m "added the flask-project-copy to repo"`
+
+![flask-commit](Screen-shots/flask-commit.png)
+
+4.  Now then to merge the branch and the main we've to first switch to main branch.
+
+	- `git switch main`
+
+5.  Let's merge both of them now,
+   
+	- For that we'll be using the command :
+  
+	- You can put your branch name there.
+  
+	- `git merger prashantrawat13`
+
+![Git-merge](Screen-shots/git-merge.png)
+
+
+***
+***
 
 
 
 
-
-
-
-- Create a new branch named after your username (e.g., Tutedude).
--  Add your Flask project files to this branch.
--  Commit the changes and merge the branch into the main branch.
