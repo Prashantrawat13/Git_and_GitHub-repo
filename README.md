@@ -10,7 +10,7 @@ Today we'll be Doing some Task on Git and Github.
 Firstly we'll be starting with making a GitHub repository in our git-hub account
 
 
-![account](Screen-shots\repo-name.png)
+![repo-name](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/repo-name.png?raw=true)
 
 - We have created an repository named "[Git_and_GitHub-repo](https://github.com/Prashantrawat13/Git_and_GitHub-repo)"
 
@@ -21,7 +21,7 @@ Firstly we'll be starting with making a GitHub repository in our git-hub account
 		- First we Click on the `<> Code` button and then Copy the HTTPS link.
 
 
-![link](Screen-shots\Https-link-copy.png)
+![link](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/Https-link-copy.png?raw=true)
 
 
 -  Now that we have our HTTPS link of the repo, now we'll make an `Folder` for the repo.
@@ -33,7 +33,7 @@ Firstly we'll be starting with making a GitHub repository in our git-hub account
 	- After making the directory we can go into the directory using the `cd : change directory` command
 
 
-  ![dir](Screen-shots\mk-dir.png)
+  ![dir](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/mk-dir.png?raw=true)
   
 - And now we have checked inside of the directory using `ls : list` command and it's empty.
 
@@ -41,7 +41,7 @@ Now to clone the repository we first have to **Initialize Git in the directory**
 
 
 
-![init](Screen-shots\Git-init.png)
+![init](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/Git-init.png?raw=true)
 
 
 After Initialization We have to **Clone the repo** and we'll be using this command.
@@ -53,7 +53,7 @@ git clone https://github.com/username/repository-name.git
 ```
 
 
-![clone](Screen-shots\git-clone.png)
+![clone](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/git-clone.png?raw=true)
 
 ***
 
@@ -74,7 +74,7 @@ Now to switch to the branch we'll command
 git switch branch-name
 ```
 
-![branch](Screen-shots/branches.png)
+![branch](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/branches.png?raw=true)
 
 
 To see all the branches there are and the current branch you are in:
@@ -96,7 +96,7 @@ cd -r "file-path" "name-for-file"
 
 Now it is named as **flask-project-copy** {it's my another [git-repo](https://github.com/Prashantrawat13/Flask_and_mongodb.git)}
 
-![flask-copy](Screen-shots/flask-copy.png)
+![flask-copy](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/flask-copy.png?raw=true)
 
 ***
 
@@ -114,19 +114,19 @@ Now we'll make the changes from the "prashantrawat13" branch and then merge it w
 
 	-  `git status`
  
-![clone-add](Screen-shots/clone-add.png)
+![clone-add](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/clone-add.png?raw=true)
 
 3.  Let's commit the changes we made using the **prashantrawat13 Branch** 
 
 	-  `git commit -m "added the flask-project-copy to repo"`
 
-![flask-commit](Screen-shots/flask-commit.png)
+![flask-commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/flask-commit.png?raw=true)
 
-4.  Now then to merge the branch and the main we've to first switch to main branch.
+1.  Now then to merge the branch and the main we've to first switch to main branch.
 
 	- `git switch main`
 
-5.  Let's merge both of them now,
+2.  Let's merge both of them now,
    
 	- For that we'll be using the command :
   
@@ -134,7 +134,7 @@ Now we'll make the changes from the "prashantrawat13" branch and then merge it w
   
 	- `git merger prashantrawat13`
 
-![Git-merge](Screen-shots/git-merge.png)
+![Git-merge](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Screen-shots/git-merge.png?raw=true)
 
 
 ***
