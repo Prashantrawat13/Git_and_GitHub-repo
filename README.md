@@ -74,7 +74,7 @@ Now to switch to the branch we'll command
 git switch branch-name
 ```
 
-![branch](Screen-shots/branch.png)
+![branch](Screen-shots/branches.png)
 
 
 To see all the branches there are and the current branch you are in:
