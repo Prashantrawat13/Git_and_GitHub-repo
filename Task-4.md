@@ -47,7 +47,7 @@
 This is the `Item ID` that we have added in the File
 
 
-#### Photo of Item-ID-add
+#### ![Item-ID-add](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Item-add.png?raw=true)
 
 
 This is how your code should Look like after adding.
@@ -60,7 +60,7 @@ Now that the changes are done,
 -  `git commit -m "Item ID is added to the todo.html File"`
 
 
-#### Photo of the Item-id Commit
+#### ![Item-id Commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/ID-commit.png?raw=true)
 
 Now here We have committed our Item-ID changes, Let's do every one of them one by one.
 
@@ -80,7 +80,7 @@ Now here We have committed our Item-ID changes, Let's do every one of them one b
 This is the `Item UUID` that we have added in the File
 
 
-#### Photo of Item-UUID-add
+#### ![Item-UUID-add](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/UUID-add.png?raw=true)
 
 
 This is how your code should Look like after adding.
@@ -93,7 +93,7 @@ Now that the changes are done,
 -  `git commit -m "Second commit : Item UUID is added to the todo.html File"`
 
 
-#### Photo of the Item-UUid Commit
+#### ![Item-UUid Commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/UUID-commit.png?raw=true)
 
 ---
 
@@ -111,7 +111,7 @@ Now that the changes are done,
 This is the `Item Hash` that we have added in the File
 
 
-#### Photo of Item-Hash-add
+#### ![Item-Hash-add](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Hash-add.png?raw=true)
 
 
 This is how your code should Look like after adding.
@@ -124,14 +124,14 @@ Now that the changes are done,
 -  `git commit -m "Second commit : Item Hash is added to the todo.html File"`
 
 
-#### Photo of the Item-Hash Commit
+#### ![Item-Hash Commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Hash-commit.png?raw=true)
 
 ***
 
 As you all can see I've Committed it three times, Now I'll show you Commit Log.
 Command used : `git log`
 
-#### Photo of Logs
+#### ![Logs](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Photo-logs.png?raw=true)
 
 In this you can See the last 3 of my logs .
 
@@ -148,7 +148,7 @@ We'll first switch to the main branch:
 Now Merge the **master_1 branch to the main branch**.
 	`git merge master_1`
 
-#### Photo of master-merge
+#### ![master-merge](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/master-merge.png?raw=true)
 
 
 ***
@@ -162,7 +162,7 @@ Now Merge the **master_1 branch to the main branch**.
 Now we'll be rolling back to the commit where we had just committed the Item-ID:
 
 
-#### Photo of the roll-back
+#### ![roll-back](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Roll-back.png?raw=true)
 
 Now we'll be re-committing everything in a single commit
 
@@ -181,12 +181,12 @@ Then we'll commit the above 3 commit in a single commit,
 	`git commit -m "Reorganizing the commits into a single commit"`
 
 
-#### photo of the new-commit
+#### ![new-commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/new-commit.png?raw=true)
 
 
 ***
 
-#### Photo of new-Logs
+#### ![new-Logs](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/New-log.png?raw=true)
 
 **In these logs you can see the direct change on commit after the first commit**
 - It now shows the reorganizing commit after the Item-ID commit.
@@ -212,7 +212,7 @@ Now we'll Rebase the master_1 branch by main branch.
 
 **Firstly we are seeing the logs before the Rebasing**
 
-#### photo of before-rebasing
+#### ![before-rebasing](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Before-rebase.png?raw=true)
 
 
 - Then we'll be Rebasing the master_1 branch with main.
@@ -222,16 +222,16 @@ git rebase main master_1
 ```
 
 
-#### photo of rebasing
+#### ![rebasing](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/Rebase.png?raw=true)
 
 - During the rebase process there comes some conflicts, You can resolve them using the VS code.
-	- You don't have to do much just accept the changes you want
+    - You don't have to do much just accept the changes you want
 
 
 - **Now that the Rebasing is done we'll se the logs and what's the difference.**
 
 
-#### Photo after rebasing 
+#### ![after rebasing](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-4-image/after-rebase.png?raw=true)
 
 - **Now that the rebasing is done we can see the changes**
 	- Here you can see after the Item-ID commit there is a new Commit showing that we have done on the main branch.
