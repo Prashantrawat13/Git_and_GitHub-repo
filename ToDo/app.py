@@ -1,22 +1,26 @@
 from flask import Flask, request, jsonify, render_template
-from flask_pymongo import PyMongo
+from pymongo import MongoClient
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://localhost:27017/tododb"
-mongo = PyMongo(app)
 
-@app.route('/todo')
+# Connect to MongoDB
+client = MongoClient("mongodb://localhost:27017/")
+db = client["tododb"]  # Database
+todos_collection = db["todos"]  # Collection
+
+# Route to serve To-Do HTML page
+@app.route('/')
 def todo_page():
     return render_template('todo.html')
 
+# API route to submit To-Do item
 @app.route('/submittodoitem', methods=['POST'])
 def submit_todo():
     item_name = request.form.get('itemName')
     item_desc = request.form.get('itemDescription')
 
     # Insert into MongoDB
-    todo_collection = mongo.db.todos
-    todo_collection.insert_one({
+    todos_collection.insert_one({
         "itemName": item_name,
         "itemDescription": item_desc
     })
@@ -25,4 +29,3 @@ def submit_todo():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
