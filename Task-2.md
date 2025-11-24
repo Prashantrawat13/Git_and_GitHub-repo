@@ -19,7 +19,7 @@ git branch -c prashant_new
 ```
 
 
-### Photo New branch
+#### ![new-branch](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/New-branch.png?raw=true)
 
 In this we've first checked how many branches are there then created a new one and then Checked again.
 
@@ -33,13 +33,13 @@ In this we've first checked how many branches are there then created a new one a
 
 Let's first switch to the "*Prashant_new*" Branch.   Command `git switch Prashant_new`
 
-### photo new switch 
+#### ![new-switch](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/switch-new.png?raw=true)
 
 Now let's open our **Folder in the VS-Code**
 
 - In VS-Code we'll now make some adjustment in the **Data.json file**.
 
-### Photo Json-change
+#### ![Json-change](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/json-change.png?raw=true)
 
 - In this We have added the 4th line in the existed file.
 
@@ -49,7 +49,7 @@ Now let's open our **Folder in the VS-Code**
 
 For that first we'll first add and commit the changes from the branch, and them merge it from the main branch.
 
-### Photo of json-commit
+#### ![json-commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/json-commit.png?raw=true)
 
 - In this we've added the data.json to staging. `git add Flask-project-copy/data.json`
 
@@ -66,7 +66,7 @@ Now that we are in the main Branch let's merge it with the "Prashant_new" branch
 git merge Prashant_new
 ```
 
-### Photo of new merge
+#### ![new merge](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/new-merge.png?raw=true)
 
 Now with this we've merged the *main branch* and the *Prashant_new* Branch
 
@@ -85,7 +85,6 @@ We have successfully merged with the main branch.
 
  Now we'll be pushing our Local Repository to Remote Repository (GitHub)
 
-### Photo on new-push
 
 The Command we've used is :
 ```
@@ -100,7 +99,7 @@ git push origin
 
 But from the main Branch
 
-### Photo of new-push
+#### ![new-push](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-2-image/new-push.png?raw=true)
 
 
 ***

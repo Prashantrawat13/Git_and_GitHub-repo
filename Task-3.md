@@ -9,7 +9,7 @@ We have completed the task 1 and task 2.
 Let's start with Creating the new Branches :
 - master_1 and master_2
 
-### Photo of master-branch 
+#### ![master-branch](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/master-branch.png?raw=true)
 
 ***
 
@@ -38,7 +38,7 @@ And in the "Templates" Folder we'll create an **todo.html file**.
 
 - With this you will open the editor that'll look like this
 
-### Photo of Vim editor
+#### ![Vim editor](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/vim-editor.png?raw=true)
 
 When you are in editor, Do this:
 - Press `i` to insert 
@@ -69,7 +69,7 @@ When you are in editor, Do this:
 - After the code is pasted then Press `Esc` (escape button on keyboard)
 - Then type `:wq` to save and exit the vim editor
 
-### Photo Of code-looks
+#### ![code-looks](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/code-look.png?raw=true)
 
 
 Now we'll commit the changes we did from the "**master_1**" Branch
@@ -80,7 +80,7 @@ Now we'll commit the changes we did from the "**master_1**" Branch
 - Then commit them with a message.
 `git commit -m "Added the frontend of the todo in the todo folder"`
 
-### Photo of master-1 commit
+#### ![master-1 commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/Master1-commit.png?raw=true)
 
 
 ***
@@ -180,7 +180,7 @@ if __name__ == '__main__':
 To leave the editor:
 - First press `Esc` then type `:wq` to save and exit the editor.
 
-### Photo of the app-code
+#### ![app.py-code](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/app.py-code.png?raw=true)
 
 
 **This is what it'll Look like**
@@ -191,7 +191,7 @@ After it you can add the changes to the staging
 Then commit it with the message:
 - `git commit -m "Added the app.py file to the master_2 branch"`
 
-### Photo of the master-2-commit
+#### ![master-2-commit](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/master2-commit.png?raw=true)
 
 
 ***
@@ -232,7 +232,7 @@ git push origin main
 ```
 
 
-### Photo of main push
+#### ![main push](https://github.com/Prashantrawat13/Git_and_GitHub-repo/blob/main/Task-3-image/main-push.png?raw=true)
 
 
 ***
